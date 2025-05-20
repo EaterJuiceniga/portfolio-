@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Static Weather Widget</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weather-widget">
+    <div class="weather-city">New York</div>
+    <div class="weather-main">
+      <img src="weather-sunny.svg" alt="Sunny" class="weather-icon" id="weatherIcon">
+      <div class="weather-temp" id="weatherTemp">22°C</div>
+    </div>
+    <div class="weather-details">
+      <div>Condition: <span id="weatherCondition">Sunny</span></div>
+      <div>Humidity: <span id="weatherHumidity">45%</span></div>
+      <div>Wind: <span id="weatherWind">10 km/h</span></div>
+    </div>
+    <button id="changeCity">Change City</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
